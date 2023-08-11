@@ -143,16 +143,15 @@ margin-right: 20%
     background-image: url(images/p1.jpg);
 }
 #img-1{
-    background-image: url(images/p1.jpg);
+    
     position: relative;
 }
-#img2{
-    /* background-image: url(images/p2.jpg); */
+.img2 {
+    background-image: url(images/p2.jpg);
 }
-#img3{
-/* background-image: url(images/p3.jpg); */
+.img3 {
+    background-image: url(images/p3.jpg);
 }
-
 .porthove{
     width: 400px;
     height: 320px;
@@ -177,6 +176,12 @@ background-color: orangered;
 color: white;
 }
 .img1:hover .porthove{
+    visibility: visible;
+}
+.img2:hover .porthove{
+    visibility: visible;
+}
+.img3:hover .porthove{
     visibility: visible;
 }
 
@@ -301,9 +306,4 @@ footer{
     justify-content: center;
     background-color: gray;
     margin-top:-23px;
-}
-
-
-#test {
-    
 }
