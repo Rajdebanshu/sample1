@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
 } 
+
+
 .loc ,.call, .mail, .tweet, .insta, .link , .face{
     width: 35px;
     height: 35px;
